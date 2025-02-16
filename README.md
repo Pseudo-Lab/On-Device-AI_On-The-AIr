@@ -14,7 +14,7 @@
 
 <!-- sheilds: https://shields.io/ -->
 <!-- hits badge: https://hits.seeyoufarm.com/ -->
-<h1 align="center"> <img src="./logo_v1.jpeg" /> </h1>
+<h1 align="center"> <img src="./images/logo_v1.jpeg" /> </h1>
 > On-Device AI는 현재 "On The Air". AI 기술의 고도화에 따라 모델이 복잡해지고 클라우드 방식의 서비스들이 많이 개발되었습니다. 이에 따른 보안성, 안정성, 비용의 문제를 해결하기 위해 경량화 및 최적화 기술도 많이 연구되고 있습니다. On-Device AI 기술들을 공부하고 이를 응용하여 적은 컴퓨팅 자원에서도 적용될 수 있는 AI 기술을 개발하고자 합니다.
 
 ## 🌟 프로젝트 목표 (Project Vision)
