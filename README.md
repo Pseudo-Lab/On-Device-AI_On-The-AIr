@@ -40,7 +40,7 @@ gantt
     section 전체 커리큘럼
     Pruning      :a1, 2025-03-03, 119d
     Quantization :a2, after a1, 120d
-        :a3, after a2, 30d
+
     section Pruning 세부 활동
     SPECIFIC OR UNIVERSAL SPEEDUP   :b1, 2025-03-03, 35d
     WHEN TO PRUNE                   :b2, after b2, 84d
@@ -121,7 +121,7 @@ recommendations." IEEE Transactions on Pattern Analysis and Machine Intelligence
 **팀원으로 참여하시려면 러너 모집 기간에 신청해주세요.**  
 - 링크 (준비중)  
 
-> 다음 내용을 포함해주세요
+> 지원시 다음 내용을 포함해주세요
 - 지원 동기
 - 이번 스터디를 통해 얻고자 하는 것
 - On-Device AI 관련 경험 (없다면 AI/ML 관련 경험)
