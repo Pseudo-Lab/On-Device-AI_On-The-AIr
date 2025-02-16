@@ -15,6 +15,7 @@
 <!-- sheilds: https://shields.io/ -->
 <!-- hits badge: https://hits.seeyoufarm.com/ -->
 <h1 align="center"> <img src="./images/logo_v1.jpeg" /> </h1>
+
 > On-Device AI는 현재 "On The Air". AI 기술의 고도화에 따라 모델이 복잡해지고 클라우드 방식의 서비스들이 많이 개발되었습니다. 이에 따른 보안성, 안정성, 비용의 문제를 해결하기 위해 경량화 및 최적화 기술도 많이 연구되고 있습니다. On-Device AI 기술들을 공부하고 이를 응용하여 적은 컴퓨팅 자원에서도 적용될 수 있는 AI 기술을 개발하고자 합니다.
 
 ## 🌟 프로젝트 목표 (Project Vision)
@@ -30,7 +31,7 @@ _"논문 리뷰를 통해 모델을 경량화하고 최적화하기 위한 방�
 | 역할          | 이름 |  기술 스택 배지                                                                 | 주요 관심 분야                          |
 |---------------|------|-----------------------------------------------------------------------|----------------------------------------|
 | **Project Manager** | 정현우 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C) | On-Device AI, CV, Robotics         |
-| **Member** | - | ![SQL](https://img.shields.io/badge/SQL-Advanced-003B57) ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4) | -                  |
+| **Member** | - | <!-- ![SQL](https://img.shields.io/badge/SQL-Advanced-003B57) ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4) -->| -                  |
 
 
 ## 🚀 프로젝트 로드맵 (Project Roadmap)
@@ -43,7 +44,7 @@ gantt
 
     section Pruning 세부 활동
     SPECIFIC OR UNIVERSAL SPEEDUP   :b1, 2025-03-03, 35d
-    WHEN TO PRUNE                   :b2, after b2, 84d
+    WHEN TO PRUNE                   :b2, after b1, 84d
 ```
 
 
@@ -122,9 +123,9 @@ recommendations." IEEE Transactions on Pattern Analysis and Machine Intelligence
 - 링크 (준비중)  
 
 > 지원시 다음 내용을 포함해주세요
-- 지원 동기
-- 이번 스터디를 통해 얻고자 하는 것
-- On-Device AI 관련 경험 (없다면 AI/ML 관련 경험)
+> - 지원 동기
+> - 이번 스터디를 통해 얻고자 하는 것
+> - On-Device AI 관련 경험 (없다면 AI/ML 관련 경험)
 
 **누구나 청강을 통해 모임을 참여하실 수 있습니다.**  
 1. 특별한 신청 없이 정기 모임 시간에 맞추어 디스코드 #Room-GH 채널로 입장
