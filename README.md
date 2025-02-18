@@ -100,6 +100,23 @@ class CollaborationFramework:
 | 2025/06/18 | Post-Training Pruning                | Pruning After Training    | 미정 | 온라인 | 선정 중 |
 | 2025/06/25 | Run-time Pruning                     | Run-time Pruning          | 미정 | 온라인 | 선정 중 |
 
+## 진행 방식
+매주 스터디 진행 방식은 다음과 같습니다.  
+> 1. 근황 이야기 (20 ~ 30분 예상)
+> 2. 발표자를 제외한 **참여자**들이 준비한 On-Device AI 관련된 이슈들을 공유한다. (20 ~ 40분 예상)
+> 3. **발표자**는 준비한 논문 리뷰를 발표한다. (30분 ~ 1시간 예상)
+
+
+이에 따라 다음 내용들을 준비하시면 됩니다  
+**공통사항**
+- 해당 주차 논문을 읽는다.  
+
+**발표자**
+- 해당 주차 논문에 대한 발표 준비를 한다.  
+
+**참여자**
+- On-Device AI와 관련된 기술들(TensorRT, LiteRT, ONNX 등)의 트렌드나 이슈를 준비한다.
+
 ## 💡 학습 자원 (Learning Resources)
 > 세부 논문들은 [주차별 활동](#💻-주차별-활동-activity-history) 내 참고자료 참고
 
@@ -121,11 +138,6 @@ recommendations." IEEE Transactions on Pattern Analysis and Machine Intelligence
 
 **팀원으로 참여하시려면 러너 모집 기간에 신청해주세요.**  
 - 링크 (준비중)  
-
-> 지원시 다음 내용을 포함해주세요
-> - 지원 동기
-> - 이번 스터디를 통해 얻고자 하는 것
-> - On-Device AI 관련 경험 (없다면 AI/ML 관련 경험)
 
 **누구나 청강을 통해 모임을 참여하실 수 있습니다.**  
 1. 특별한 신청 없이 정기 모임 시간에 맞추어 디스코드 #Room-GH 채널로 입장
