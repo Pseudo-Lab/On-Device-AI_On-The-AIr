@@ -80,25 +80,25 @@ class CollaborationFramework:
 
 ## 💻 주차별 활동 (Activity History)
 
-| 날짜 | 내용 | 분류 | 발표자 | 진행방식 | 참고자료 |
-| -------- | -------- | ---- | --- | --- | --- |
-| 2025/03/05 | OT |     |     |     | - |
-| 2025/03/12 | Unstructured Pruning                 | Unstructured Pruning      | 미정 | 온라인 | 선정 중 |
-| 2025/03/19 | Structured Pruning                   | Structured Pruning        | 미정 | 온라인 | 선정 중 |
-| 2025/03/26 | Magical Week 휴일 | - | 미정 | - | - |
-| 2025/04/02 | Semi-structured Pruning              | Semi-structured Pruning   | 미정 | 온라인 | 선정 중 |
-| 2025/04/09 | Pruning Before Training              | Pruning Before Training   | 미정 | 온라인 | 선정 중 |
-| 2025/04/16 | Sparsity Regularization based Methods| Pruning During Training   | 미정 | 온라인 | 선정 중 |
-| 2025/04/23 | Dynamic Sparse Training based Methods| Pruning During Training   | 미정 | 온라인 | 선정 중 |
-| 2025/04/30 | Magical Week 휴일 | - | 미정 | - | - |
-| 2025/05/07 | Score-based Methods                  | Pruning During Training   | 미정 | 온라인 | 선정 중 |
-| 2025/05/14 | Differentiable Pruning based methods | Pruning During Training   | 미정 | 온라인 | 선정 중 |
-| 2025/05/21 | LTH and its Variants                 | Pruning After Training    | 미정 | 온라인 | 선정 중 |
-| 2025/05/28 | Other score-based Methods            | Pruning After Training    | 미정 | 온라인 | 선정 중 |
-| 2025/06/04 | Sparsity Regularization based Methods| Pruning After Training    | 미정 | 온라인 | 선정 중 |
-| 2025/06/11 | Pruning in Early Training            | Pruning After Training    | 미정 | 온라인 | 선정 중 |
-| 2025/06/18 | Post-Training Pruning                | Pruning After Training    | 미정 | 온라인 | 선정 중 |
-| 2025/06/25 | Run-time Pruning                     | Run-time Pruning          | 미정 | 온라인 | 선정 중 |
+| 날짜 | 내용 | 분류 | 발표자 | 진행방식 | 참고자료 | 비고 |
+| -------- | -------- | ---- | --- | --- | --- | --- |
+| 2025/03/05 | OT |     |     |     | - |    |
+| 2025/03/12 | Unstructured Pruning                 | Unstructured Pruning      | 미정 | 온라인 | [J. Frankle and M. Carbin, “The lottery ticket hypothesis: finding sparse, trainable neural networks,” in ICLR, 2019.](https://arxiv.org/abs/1803.03635) |    |
+| 2025/03/19 | Structured Pruning                   | Structured Pruning        | 미정 | 오프라인 | [X. Ma, G. Fang, and X. Wang, “LLM-Pruner: On the structural pruning of large language models,” in NeurIPS, vol. 36, 2023, pp.21 702–21 720.](https://arxiv.org/abs/2305.11627) |    |
+| 2025/03/26 | Magical Week 휴일 | - | 미정 | - | - |    |
+| 2025/04/02 | Semi-structured Pruning              | Semi-structured Pruning   | 미정 | 온라인 | [F. Meng, H. Cheng, K. Li, H. Luo, X. Guo, G. Lu, and X. Sun, “Pruning filter in filter,” in NeurIPSW, 2020.](https://arxiv.org/abs/2009.14410) |    |
+| 2025/04/09 | Pruning Before Training              | Pruning Before Training   | 미정 | 온라인 | [S. Liu, T. Chen, X. Chen, L. Shen, D. C. Mocanu, Z. Wang, and M. Pechenizkiy, “The unreasonable effectiveness of random pruning: Return of the most naive baseline for sparse training,” in ICLR, 2022.](https://openreview.net/forum?id=VBZJ_3tz-t) |    |
+| 2025/04/16 | Sparsity Regularization based Methods| Pruning During Training   | 미정 | 온라인 | [W. Wen, C. Wu, Y. Wang, Y. Chen, and H. Li, “Learning structured sparsity in deep neural networks,” in NIPS, 2016.](https://arxiv.org/abs/1608.03665) |    |
+| 2025/04/23 | Dynamic Sparse Training based Methods| Pruning During Training   | 미정 | 오프라인 | [U. Evci, T. Gale, J. Menick, P. S. Castro, and E. Elsen, “Rigging the lottery: Making all tickets winners,” in ICML, 2020.](https://arxiv.org/abs/1911.11134) |    |
+| 2025/04/30 | Magical Week 휴일 | - | 미정 | - | - |    |
+| 2025/05/07 | Score-based Methods                  | Pruning During Training   | 미정 | 온라인 | [Y. He, P. Liu, Z. Wang, Z. Hu, and Y. Yang, “Filter pruning via geometric median for deep convolutional neural networks acceleration,” in CVPR, 2019, pp. 4340–4349.](https://arxiv.org/abs/1811.00250) |    |
+| 2025/05/14 | Differentiable Pruning based methods | Pruning During Training   | 미정 | 온라인 | [X. Ning, T. Zhao, W. Li, P. Lei, Y. Wang, and H. Yang, “DSA: More efficient budgeted pruning via differentiable sparsity allocation,” in ECCV, 2020, pp. 592–607.](https://arxiv.org/abs/2004.02164) |  Pseudo Con  |
+| 2025/05/21 | LTH and its Variants                 | Pruning After Training    | 미정 | 온라인 | 선정 중 |    |
+| 2025/05/28 | Other score-based Methods            | Pruning After Training    | 미정 | 오프라인 | 선정 중 |    |
+| 2025/06/04 | Sparsity Regularization based Methods| Pruning After Training    | 미정 | 온라인 | 선정 중 |    |
+| 2025/06/11 | Pruning in Early Training            | Pruning After Training    | 미정 | 온라인 | 선정 중 |    |
+| 2025/06/18 | Post-Training Pruning                | Pruning After Training    | 미정 | 온라인 | 선정 중 |    |
+| 2025/06/25 | Run-time Pruning                     | Run-time Pruning          | 미정 | 오프라인 | 선정 중 |    |
 
 ## 진행 방식
 매주 스터디 진행 방식은 다음과 같습니다.  
