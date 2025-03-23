@@ -58,7 +58,7 @@ gantt
     WHEN TO PRUNE                   :b2, after b1, 84d
 
     section 실습 세부 활동
-    Pruning with Jetson  :c1, 2025-04-01, 60d
+    Pruning with Jetson  :c1, 2025-04-01, 90d
 ```
 
 
