@@ -16,14 +16,14 @@
 <!-- hits badge: https://hits.seeyoufarm.com/ -->
 <h1 align="center"> <img src="./images/logo_v1.jpeg" /> </h1>
 
-> On-Device AI는 현재 "On The Air". AI 기술의 고도화에 따라 모델이 복잡해지고 클라우드 방식의 서비스들이 많이 개발되었습니다. 이에 따른 보안성, 안정성, 비용의 문제를 해결하기 위해 경량화 및 최적화 기술도 많이 연구되고 있습니다. On-Device AI 기술들을 공부하고 이를 응용하여 적은 컴퓨팅 자원에서도 적용될 수 있는 AI 기술을 개발하고자 합니다.
+> Welcome to **On-Device AI: ON THE AIr** repository! We aim to research On-Device AI with an emphasis on common model compression techniques, conducting paper reviews, and benchmarking real-world performance using NVIDIA Jetson devices. Join us in advancing On-Device AI through open collaboration and innovation! 🚀
 
 ## 🌟 프로젝트 목표 (Project Vision)
-_"논문 리뷰를 통해 모델을 경량화하고 최적화하기 위한 방법을 연구하자"_  
-- 본 시즌(10기)에서는 Pruning에 대한 다양한 테크닉들을 학습
-- 각 테크닉들의 논문을 읽으면서 접근 방식과 특징, 한계를 파악
-- 개인 성장과 집단 지혜의 시너지 창출
-- 오픈소스 정신을 바탕으로 한 지식 공유 문화
+_"Propose the optimal model compression techniques for NVIDIA Jetson devices by leveraging the knowledge gained from research paper reviews on model compression methods."_  
+- Learn various pruning techniques during this season (10th cohort).
+- Apply the learned model compression methods to existing models.
+- Foster synergy between individual growth and collective intelligence.
+- Promote a knowledge-sharing culture based on the open-source spirit.
 
 
 ## 🧑 역동적인 팀 소개 (Dynamic Team)
@@ -31,7 +31,18 @@ _"논문 리뷰를 통해 모델을 경량화하고 최적화하기 위한 방�
 | 역할          | 이름 |  기술 스택 배지                                                                 | 주요 관심 분야                          |
 |---------------|------|-----------------------------------------------------------------------|----------------------------------------|
 | **Project Manager** | 정현우 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C) | On-Device AI, CV, Robotics         |
-| **Member** | - | <!-- ![SQL](https://img.shields.io/badge/SQL-Advanced-003B57) ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4) -->| -                  |
+| **Member** | 김민성 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 구승연 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 문규식 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 박선영 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 박예리 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 양문기 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 이명석 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 정진우 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 최예제 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 최유진 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member** | 최해인 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+
 
 
 ## 🚀 프로젝트 로드맵 (Project Roadmap)
@@ -45,6 +56,9 @@ gantt
     section Pruning 세부 활동
     SPECIFIC OR UNIVERSAL SPEEDUP   :b1, 2025-03-03, 35d
     WHEN TO PRUNE                   :b2, after b1, 84d
+
+    section 실습 세부 활동
+    Pruning with Jetson  :c1, 2025-04-01, 90d
 ```
 
 
@@ -79,26 +93,26 @@ class CollaborationFramework:
 
 
 ## 💻 주차별 활동 (Activity History)
-
-| 날짜 | 내용 | 분류 | 발표자 | 진행방식 | 참고자료 | 비고 |
-| -------- | -------- | ---- | --- | --- | --- | --- |
-| 2025/03/05 | OT |     |     |     | - |    |
-| 2025/03/12 | Unstructured Pruning                 | Unstructured Pruning      | 구승연 | 온라인 | [J. Frankle and M. Carbin, “The lottery ticket hypothesis: finding sparse, trainable neural networks,” in ICLR, 2019.](https://arxiv.org/abs/1803.03635) |    |
-| 2025/03/19 | Structured Pruning                   | Structured Pruning        | 김민성 | 오프라인 | [X. Ma, G. Fang, and X. Wang, “LLM-Pruner: On the structural pruning of large language models,” in NeurIPS, vol. 36, 2023, pp.21 702–21 720.](https://arxiv.org/abs/2305.11627) |    |
-| 2025/03/26 | Magical Week 휴일 | - | 미정 | - | - |    |
-| 2025/04/02 | Semi-structured Pruning              | Semi-structured Pruning   | 최유진 | 온라인 | [F. Meng, H. Cheng, K. Li, H. Luo, X. Guo, G. Lu, and X. Sun, “Pruning filter in filter,” in NeurIPSW, 2020.](https://arxiv.org/abs/2009.14410) |    |
-| 2025/04/09 | Pruning Before Training              | Pruning Before Training   | 문규식 | 온라인 | [S. Liu, T. Chen, X. Chen, L. Shen, D. C. Mocanu, Z. Wang, and M. Pechenizkiy, “The unreasonable effectiveness of random pruning: Return of the most naive baseline for sparse training,” in ICLR, 2022.](https://openreview.net/forum?id=VBZJ_3tz-t) |    |
-| 2025/04/16 | Sparsity Regularization based Methods| Pruning During Training   | 박예리 | 온라인 | [W. Wen, C. Wu, Y. Wang, Y. Chen, and H. Li, “Learning structured sparsity in deep neural networks,” in NIPS, 2016.](https://arxiv.org/abs/1608.03665) |    |
-| 2025/04/23 | Dynamic Sparse Training based Methods| Pruning During Training   | 구승연 | 오프라인 | [U. Evci, T. Gale, J. Menick, P. S. Castro, and E. Elsen, “Rigging the lottery: Making all tickets winners,” in ICML, 2020.](https://arxiv.org/abs/1911.11134) |    |
-| 2025/04/30 | Magical Week 휴일 | - | 미정 | - | - |    |
-| 2025/05/07 | Score-based Methods                  | Pruning During Training   | 최해인 | 온라인 | [Y. He, P. Liu, Z. Wang, Z. Hu, and Y. Yang, “Filter pruning via geometric median for deep convolutional neural networks acceleration,” in CVPR, 2019, pp. 4340–4349.](https://arxiv.org/abs/1811.00250) |    |
-| 2025/05/14 | Differentiable Pruning based methods | Pruning During Training   | 정진우 | 온라인 | [X. Ning, T. Zhao, W. Li, P. Lei, Y. Wang, and H. Yang, “DSA: More efficient budgeted pruning via differentiable sparsity allocation,” in ECCV, 2020, pp. 592–607.](https://arxiv.org/abs/2004.02164) |  Pseudo Con  |
-| 2025/05/21 | LTH and its Variants                 | Pruning After Training    | 이명석 | 온라인 | 선정 중 |    |
-| 2025/05/28 | Other score-based Methods            | Pruning After Training    | 김민성 | 오프라인 | 선정 중 |    |
-| 2025/06/04 | Sparsity Regularization based Methods| Pruning After Training    | 최예제 | 온라인 | 선정 중 |    |
-| 2025/06/11 | Pruning in Early Training            | Pruning After Training    | 양문기 | 온라인 | 선정 중 |    |
-| 2025/06/18 | Post-Training Pruning                | Pruning After Training    | 박선영 | 온라인 | 선정 중 |    |
-| 2025/06/25 | Run-time Pruning                     | Run-time Pruning          | 정현우 | 오프라인 | 선정 중 |    |
+| 날짜 | 내용 | 발표자 | 진행방식 | 참고자료 | 비고 |
+| -------- | -------- | ---- | --- | --- | --- |
+| 2025/03/05 | OT                                                            | 정현우 | 온라인 | - |    |
+| 2025/03/12 | Unstructured Pruning                                          | 구승연 | 온라인 | [J. Frankle and M. Carbin, “The lottery ticket hypothesis: finding sparse, trainable neural networks,” in ICLR, 2019.](https://arxiv.org/abs/1803.03635) |    |
+| 2025/03/19 | Structured Pruning                                            | 김민성 | 오프라인 | [X. Ma, G. Fang, and X. Wang, “LLM-Pruner: On the structural pruning of large language models,” in NeurIPS, vol. 36, 2023, pp.21 702–21 720.](https://arxiv.org/abs/2305.11627) |    |
+| 2025/03/26 | Magical Week 휴일 | 미정 | - | - |    |
+| 2025/04/02 | Semi-structured Pruning                                       | 최유진 | 온라인 | [F. Meng, H. Cheng, K. Li, H. Luo, X. Guo, G. Lu, and X. Sun, “Pruning filter in filter,” in NeurIPSW, 2020.](https://arxiv.org/abs/2009.14410) |    |
+| 2025/04/03 | Semi-structured Pruning                                       | 최유진 | 온라인 | [F. Meng, H. Cheng, K. Li, H. Luo, X. Guo, G. Lu, and X. Sun, “Pruning filter in filter,” in NeurIPSW, 2020.](https://arxiv.org/abs/2009.14410) |    |
+| 2025/04/09 | Pruning Before Training                                       | 문규식 | 온라인 | [S. Liu, T. Chen, X. Chen, L. Shen, D. C. Mocanu, Z. Wang, and M. Pechenizkiy, “The unreasonable effectiveness of random pruning: Return of the most naive baseline for sparse training,” in ICLR, 2022.](https://openreview.net/forum?id=VBZJ_3tz-t) |    |
+| 2025/04/16 | Pruning During Training: Sparsity Regularization based Methods| 박예리 | 온라인 | [W. Wen, C. Wu, Y. Wang, Y. Chen, and H. Li, “Learning structured sparsity in deep neural networks,” in NIPS, 2016.](https://arxiv.org/abs/1608.03665) |    |
+| 2025/04/23 | Pruning During Training: Dynamic Sparse Training based Methods| 구승연 | 오프라인 | [U. Evci, T. Gale, J. Menick, P. S. Castro, and E. Elsen, “Rigging the lottery: Making all tickets winners,” in ICML, 2020.](https://arxiv.org/abs/1911.11134) |    |
+| 2025/04/30 | Magical Week 휴일 | 미정 | - | - |    |
+| 2025/05/07 | Pruning During Training: Score-based Methods                  | 최해인 | 온라인 | [Y. He, P. Liu, Z. Wang, Z. Hu, and Y. Yang, “Filter pruning via geometric median for deep convolutional neural networks acceleration,” in CVPR, 2019, pp. 4340–4349.](https://arxiv.org/abs/1811.00250) |    |
+| 2025/05/14 | Pruning During Training: Differentiable Pruning based methods | 정진우 | 온라인 | [X. Ning, T. Zhao, W. Li, P. Lei, Y. Wang, and H. Yang, “DSA: More efficient budgeted pruning via differentiable sparsity allocation,” in ECCV, 2020, pp. 592–607.](https://arxiv.org/abs/2004.02164) |  Pseudo Con  |
+| 2025/05/21 | Pruning After Training: LTH and its Variants                  | 이명석 | 온라인 | 선정 중 |    |
+| 2025/05/28 | Pruning After Training: Other score-based Methods             | 김민성 | 오프라인 | 선정 중 |    |
+| 2025/06/04 | Pruning After Training: Sparsity Regularization based Methods | 최예제 | 온라인 | 선정 중 |    |
+| 2025/06/11 | Pruning After Training: Pruning in Early Training             | 양문기 | 온라인 | 선정 중 |    |
+| 2025/06/18 | Pruning After Training: Post-Training Pruning                 | 박선영 | 온라인 | 선정 중 |    |
+| 2025/06/25 | Run-time Pruning                                              | 정현우 | 오프라인 | 선정 중 |    |
 
 ## 진행 방식
 매주 스터디 진행 방식은 다음과 같습니다.  
