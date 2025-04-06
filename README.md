@@ -20,7 +20,7 @@
 
 ## 🌟 프로젝트 목표 (Project Vision)
 _"Propose the optimal model compression techniques for NVIDIA Jetson devices by leveraging the knowledge gained from research paper reviews on model compression methods."_  
-- Learn various pruning techniques during this season (10th cohort).
+- Learn various pruning techniques during this season (10th).
 - Apply the learned model compression methods to existing models.
 - Foster synergy between individual growth and collective intelligence.
 - Promote a knowledge-sharing culture based on the open-source spirit.
@@ -28,20 +28,20 @@ _"Propose the optimal model compression techniques for NVIDIA Jetson devices by 
 
 ## 🧑 역동적인 팀 소개 (Dynamic Team)
 
-| 역할          | 이름 |  기술 스택 배지                                                                 | 주요 관심 분야                          |
-|---------------|------|-----------------------------------------------------------------------|----------------------------------------|
-| **Project Manager** | 정현우 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C) | On-Device AI, CV, Robotics         |
-| **Member** | 김민성 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 구승연 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 문규식 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 박선영 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 박예리 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 양문기 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 이명석 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 정진우 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 최예제 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 최유진 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member** | 최해인 | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| 역할                 | 이름 |  기술 스택 배지                                                          | 주요 관심 분야                             |
+|---------------------|-----|-----------------------------------------------------------------------|----------------------------------------|
+| **Project Manager** | [정현우](https://github.com/official-vvoo)  | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C) | On-Device AI, CV, Robotics         |
+| **Member**          | [김민성](https://github.com/GreenIdealist)  | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member**          | [구승연](https://github.com/rrxloyeon)      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member**          | 문규식                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member**          | 박선영                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member**          | 박예리                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member**          | 양문기                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member**          | 이명석                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member**          | 정진우                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member**          | 최예제                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                    |
+| **Member**          | [최유진](https://github.com/yujin37)        | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
+| **Member**          | 최해인                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
 
 
 
@@ -57,8 +57,10 @@ gantt
     SPECIFIC OR UNIVERSAL SPEEDUP   :b1, 2025-03-03, 35d
     WHEN TO PRUNE                   :b2, after b1, 84d
 
-    section 실습 세부 활동
-    Pruning with Jetson  :c1, 2025-04-01, 90d
+    section 실습 세부 활동 with Jetson
+    Object Detection with Pruning   :c1, 2025-04-01, 43d
+    LLM with Pruning                :c2, after c1, 42d
+    CV with Pruning                 :c3, after c1, 42d
 ```
 
 
@@ -93,13 +95,13 @@ class CollaborationFramework:
 
 
 ## 💻 주차별 활동 (Activity History)
+### Paper Review
 | 날짜 | 내용 | 발표자 | 진행방식 | 참고자료 | 비고 |
 | -------- | -------- | ---- | --- | --- | --- |
 | 2025/03/05 | OT                                                            | 정현우 | 온라인 | - |    |
 | 2025/03/12 | Unstructured Pruning                                          | 구승연 | 온라인 | [J. Frankle and M. Carbin, “The lottery ticket hypothesis: finding sparse, trainable neural networks,” in ICLR, 2019.](https://arxiv.org/abs/1803.03635) |    |
 | 2025/03/19 | Structured Pruning                                            | 김민성 | 오프라인 | [X. Ma, G. Fang, and X. Wang, “LLM-Pruner: On the structural pruning of large language models,” in NeurIPS, vol. 36, 2023, pp.21 702–21 720.](https://arxiv.org/abs/2305.11627) |    |
 | 2025/03/26 | Magical Week 휴일 | 미정 | - | - |    |
-| 2025/04/02 | Semi-structured Pruning                                       | 최유진 | 온라인 | [F. Meng, H. Cheng, K. Li, H. Luo, X. Guo, G. Lu, and X. Sun, “Pruning filter in filter,” in NeurIPSW, 2020.](https://arxiv.org/abs/2009.14410) |    |
 | 2025/04/03 | Semi-structured Pruning                                       | 최유진 | 온라인 | [F. Meng, H. Cheng, K. Li, H. Luo, X. Guo, G. Lu, and X. Sun, “Pruning filter in filter,” in NeurIPSW, 2020.](https://arxiv.org/abs/2009.14410) |    |
 | 2025/04/09 | Pruning Before Training                                       | 문규식 | 온라인 | [S. Liu, T. Chen, X. Chen, L. Shen, D. C. Mocanu, Z. Wang, and M. Pechenizkiy, “The unreasonable effectiveness of random pruning: Return of the most naive baseline for sparse training,” in ICLR, 2022.](https://openreview.net/forum?id=VBZJ_3tz-t) |    |
 | 2025/04/16 | Pruning During Training: Sparsity Regularization based Methods| 박예리 | 온라인 | [W. Wen, C. Wu, Y. Wang, Y. Chen, and H. Li, “Learning structured sparsity in deep neural networks,” in NIPS, 2016.](https://arxiv.org/abs/1608.03665) |    |
@@ -114,12 +116,23 @@ class CollaborationFramework:
 | 2025/06/18 | Pruning After Training: Post-Training Pruning                 | 박선영 | 온라인 | 선정 중 |    |
 | 2025/06/25 | Run-time Pruning                                              | 정현우 | 오프라인 | 선정 중 |    |
 
+### Hands-On Pruning with Jetson
+| 날짜 | 내용 | 진행방식 | 비고 |
+| -------- | --- | --- | --- |
+| 2025/04/01 | OT 및 계획 수립                                                  | 온라인 |    |
+| 2025/04/15 | Unstructured Pruning 구현 및 학습                                | 온라인 | Phase1 |
+| 2025/04/29 | Structured Pruning 구현 및 학습                                  | 오프라인 | Phase1 & Magical Week |
+| 2025/05/13 | Zero-shot Pruning 구현 및 학습 + LLM/CV 모델 선정 및 Pruning 계획    | 오프라인 | Phase1 & Pseudo Con |
+| 2025/05/27 | Pruning 기법 1 적용                                             | 온라인 | Phase2 |
+| 2025/06/10 | Pruning 기법 2 적용                                             | 오프라인 | Phase2 |
+| 2025/06/24 | Pruning 기법 3 적용                                             | 온라인 | Phase2 |
+
 ## 진행 방식
+### Paper Review
 매주 스터디 진행 방식은 다음과 같습니다.  
 > 1. 근황 이야기 (20 ~ 30분 예상)
 > 2. 발표자를 제외한 **참여자**들이 준비한 On-Device AI 관련된 이슈들을 공유한다. (20 ~ 40분 예상)
 > 3. **발표자**는 준비한 논문 리뷰를 발표한다. (30분 ~ 1시간 예상)
-
 
 이에 따라 다음 내용들을 준비하시면 됩니다  
 **공통사항**
