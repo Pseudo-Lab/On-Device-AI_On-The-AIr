@@ -20,7 +20,7 @@
 
 ## 🌟 프로젝트 목표 (Project Vision)
 _"Propose the optimal model compression techniques for NVIDIA Jetson devices by leveraging the knowledge gained from research paper reviews on model compression methods."_  
-- Learn various pruning techniques during this season (10th cohort).
+- Learn various pruning techniques during this season (10th).
 - Apply the learned model compression methods to existing models.
 - Foster synergy between individual growth and collective intelligence.
 - Promote a knowledge-sharing culture based on the open-source spirit.
