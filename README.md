@@ -22,6 +22,8 @@
 _"Propose the optimal model compression techniques for NVIDIA Jetson devices by leveraging the knowledge gained from research paper reviews on model compression methods."_  
 - Learn various pruning techniques during this season (10th).
 - Apply the learned model compression methods to existing models.
+- Test the actual performance on the NVIDIA Jetson platform.
+- Share the results for collaborative insights and community contribution.
 - Foster synergy between individual growth and collective intelligence.
 - Promote a knowledge-sharing culture based on the open-source spirit.
 
@@ -37,7 +39,6 @@ _"Propose the optimal model compression techniques for NVIDIA Jetson devices by 
 | **Member**          | 박선영                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
 | **Member**          | 박예리                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
 | **Member**          | 양문기                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member**          | 이명석                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
 | **Member**          | 정진우                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
 | **Member**          | 최예제                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                    |
 | **Member**          | [최유진](https://github.com/yujin37)        | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
@@ -58,9 +59,9 @@ gantt
     WHEN TO PRUNE                   :b2, after b1, 84d
 
     section 실습 세부 활동 with Jetson
-    Object Detection with Pruning   :c1, 2025-04-01, 43d
-    LLM with Pruning                :c2, after c1, 42d
-    CV with Pruning                 :c3, after c1, 42d
+    Object Detection with Pruning   :c1, 2025-04-01, 63d
+    LLM with Pruning                :c2, after c1, 30d
+    CV with Pruning                 :c3, after c1, 30d
 ```
 
 
@@ -106,10 +107,10 @@ class CollaborationFramework:
 | 2025/04/09 | Pruning Before Training                                       | 문규식 | 온라인 | [S. Liu, T. Chen, X. Chen, L. Shen, D. C. Mocanu, Z. Wang, and M. Pechenizkiy, “The unreasonable effectiveness of random pruning: Return of the most naive baseline for sparse training,” in ICLR, 2022.](https://openreview.net/forum?id=VBZJ_3tz-t) |    |
 | 2025/04/16 | Pruning During Training: Sparsity Regularization based Methods| 박예리 | 온라인 | [W. Wen, C. Wu, Y. Wang, Y. Chen, and H. Li, “Learning structured sparsity in deep neural networks,” in NIPS, 2016.](https://arxiv.org/abs/1608.03665) |    |
 | 2025/04/23 | Pruning During Training: Dynamic Sparse Training based Methods| 구승연 | 오프라인 | [U. Evci, T. Gale, J. Menick, P. S. Castro, and E. Elsen, “Rigging the lottery: Making all tickets winners,” in ICML, 2020.](https://arxiv.org/abs/1911.11134) |    |
-| 2025/04/30 | Magical Week 휴일 | 미정 | - | - |    |
+| 2025/04/30 | Zero-shot Pruning | 정현우 | 온라인 | 선정 중 | Magical Week |
 | 2025/05/07 | Pruning During Training: Score-based Methods                  | 최해인 | 온라인 | [Y. He, P. Liu, Z. Wang, Z. Hu, and Y. Yang, “Filter pruning via geometric median for deep convolutional neural networks acceleration,” in CVPR, 2019, pp. 4340–4349.](https://arxiv.org/abs/1811.00250) |    |
 | 2025/05/14 | Pruning During Training: Differentiable Pruning based methods | 정진우 | 온라인 | [X. Ning, T. Zhao, W. Li, P. Lei, Y. Wang, and H. Yang, “DSA: More efficient budgeted pruning via differentiable sparsity allocation,” in ECCV, 2020, pp. 592–607.](https://arxiv.org/abs/2004.02164) |  Pseudo Con  |
-| 2025/05/21 | Pruning After Training: LTH and its Variants                  | 이명석 | 온라인 | 선정 중 |    |
+| 2025/05/21 | Pruning After Training: LTH and its Variants                  | 정현우 | 온라인 | 선정 중 |    |
 | 2025/05/28 | Pruning After Training: Other score-based Methods             | 김민성 | 오프라인 | 선정 중 |    |
 | 2025/06/04 | Pruning After Training: Sparsity Regularization based Methods | 최예제 | 온라인 | 선정 중 |    |
 | 2025/06/11 | Pruning After Training: Pruning in Early Training             | 양문기 | 온라인 | 선정 중 |    |
@@ -119,13 +120,20 @@ class CollaborationFramework:
 ### Hands-On Pruning with Jetson
 | 날짜 | 내용 | 진행방식 | 비고 |
 | -------- | --- | --- | --- |
-| 2025/04/01 | OT 및 계획 수립                                                  | 온라인 |    |
-| 2025/04/15 | Unstructured Pruning 구현 및 학습                                | 온라인 | Phase1 |
-| 2025/04/29 | Structured Pruning 구현 및 학습                                  | 오프라인 | Phase1 & Magical Week |
-| 2025/05/13 | Zero-shot Pruning 구현 및 학습 + LLM/CV 모델 선정 및 Pruning 계획    | 오프라인 | Phase1 & Pseudo Con |
-| 2025/05/27 | Pruning 기법 1 적용                                             | 온라인 | Phase2 |
-| 2025/06/10 | Pruning 기법 2 적용                                             | 오프라인 | Phase2 |
-| 2025/06/24 | Pruning 기법 3 적용                                             | 온라인 | Phase2 |
+| 2025/04/01 | OT 및 계획 수립                                         | 온라인 |   |
+| 2025/04/15 | Object Detection Model 선정                            | 온라인 |   |
+| 2025/04/29 | [PDT] Sparsity Regularization based Method 구현 및 테스트| 온라인 | Magical Week |
+| 2025/05/06 | ASP 기반 모델 학습                                       | 온라인 |   |
+| 2025/05/13 | TensorRT 변환 및 HW 내 성능 비교                          | 오프라인 | PseudoCon |
+| 2025/05/20 | [PDT] Sparse Training based Methods 구현 및 테스트       | 온라인 |   |
+| 2025/05/27 | [PDT] Score-based Methods 구현 및 테스트                 | 온라인 |   |
+| 2025/06/03 | [PDT] Differentiable Pruning based methods 구현 및 테스트| 온라인 |   |
+| 2025/06/10 | [PDT] 구현된 모델들 TensorRT 변환 및 HW 성능 비교            | 오프라인 |   |
+| 2025/06/17 | [PAT] LTH and its Variants 구현 및 테스트                | 온라인 |   |
+| 2025/06/24 | [PAT] Pruning in Early Training 구현 및 테스트           | 온라인 |   |
+| 2025/07/01 | [PAT] Post-Training Pruning 구현 및 테스트               | 온라인 |   |
+| 2025/07/08 | Run-time Pruning 구현 및 테스트                          | 온라인 |   |
+
 
 ## 진행 방식
 ### Paper Review
