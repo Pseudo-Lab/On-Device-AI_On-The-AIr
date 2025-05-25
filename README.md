@@ -39,7 +39,6 @@ _"Propose the optimal model compression techniques for NVIDIA Jetson devices by 
 | **Member**          | 박선영                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
 | **Member**          | 박예리                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
 | **Member**          | 양문기                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
-| **Member**          | 정진우                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
 | **Member**          | 최예제                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                    |
 | **Member**          | [최유진](https://github.com/yujin37)        | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
 | **Member**          | 최해인                                      | ![Python](https://img.shields.io/badge/Python-Expert-3776AB) | -                  |
@@ -107,15 +106,16 @@ class CollaborationFramework:
 | 2025/04/09 | Pruning Before Training                                       | 문규식 | 온라인 | [S. Liu, T. Chen, X. Chen, L. Shen, D. C. Mocanu, Z. Wang, and M. Pechenizkiy, “The unreasonable effectiveness of random pruning: Return of the most naive baseline for sparse training,” in ICLR, 2022.](https://openreview.net/forum?id=VBZJ_3tz-t) |    |
 | 2025/04/16 | Pruning During Training: Sparsity Regularization based Methods| 박예리 | 온라인 | [W. Wen, C. Wu, Y. Wang, Y. Chen, and H. Li, “Learning structured sparsity in deep neural networks,” in NIPS, 2016.](https://arxiv.org/abs/1608.03665) |    |
 | 2025/04/23 | Pruning During Training: Dynamic Sparse Training based Methods| 구승연 | 오프라인 | [U. Evci, T. Gale, J. Menick, P. S. Castro, and E. Elsen, “Rigging the lottery: Making all tickets winners,” in ICML, 2020.](https://arxiv.org/abs/1911.11134) |    |
-| 2025/04/30 | Zero-shot Pruning | 정현우 | 온라인 | 선정 중 | Magical Week |
+| 2025/04/30 | Zero-shot Pruning | 정현우 | 온라인 | [Wang, Hongjie, Bhishma Dedhia, and Niraj K. Jha. "Zero-TPrune: Zero-shot token pruning through leveraging of the attention graph in pre-trained transformers." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.](https://arxiv.org/abs/2305.17328) | Magical Week |
 | 2025/05/07 | Pruning During Training: Score-based Methods                  | 최해인 | 온라인 | [Y. He, P. Liu, Z. Wang, Z. Hu, and Y. Yang, “Filter pruning via geometric median for deep convolutional neural networks acceleration,” in CVPR, 2019, pp. 4340–4349.](https://arxiv.org/abs/1811.00250) |    |
-| 2025/05/14 | Pruning During Training: Differentiable Pruning based methods | 정진우 | 온라인 | [X. Ning, T. Zhao, W. Li, P. Lei, Y. Wang, and H. Yang, “DSA: More efficient budgeted pruning via differentiable sparsity allocation,” in ECCV, 2020, pp. 592–607.](https://arxiv.org/abs/2004.02164) |  Pseudo Con  |
-| 2025/05/21 | Pruning After Training: LTH and its Variants                  | 정현우 | 온라인 | 선정 중 |    |
-| 2025/05/28 | Pruning After Training: Other score-based Methods             | 김민성 | 오프라인 | 선정 중 |    |
-| 2025/06/04 | Pruning After Training: Sparsity Regularization based Methods | 최예제 | 온라인 | 선정 중 |    |
-| 2025/06/11 | Pruning After Training: Pruning in Early Training             | 양문기 | 온라인 | 선정 중 |    |
-| 2025/06/18 | Pruning After Training: Post-Training Pruning                 | 박선영 | 온라인 | 선정 중 |    |
-| 2025/06/25 | Run-time Pruning                                              | 정현우 | 오프라인 | 선정 중 |    |
+| 2025/05/14 | 리뷰 정리 | 정현우 | 오프라인 | - |  Pseudo Con  |
+| 2025/05/21 | Pruning During Training: Differentiable Pruning based methods | 정현우 | 온라인 | [X. Ning, T. Zhao, W. Li, P. Lei, Y. Wang, and H. Yang, “DSA: More efficient budgeted pruning via differentiable sparsity allocation,” in ECCV, 2020, pp. 592–607.](https://arxiv.org/abs/2004.02164) |  Pseudo Con  |
+| 2025/05/28 | Pruning After Training: LTH and its Variants                  | 정현우 | 온라인 | [Zhang, Shuai, et al. "Why lottery ticket wins? a theoretical perspective of sample complexity on sparse neural networks." Advances in Neural Information Processing Systems 34 (2021): 2707-2720.](https://arxiv.org/abs/2110.05667) |    |
+| 2025/06/04 | Pruning After Training: Other score-based Methods             | 김민성 | 오프라인 | [Men, Xin, et al. "Shortgpt: Layers in large language models are more redundant than you expect." arXiv preprint arXiv:2403.03853 (2024).](https://arxiv.org/abs/2403.03853) |    |
+| 2025/06/11 | Pruning After Training: Sparsity Regularization based Methods | 최예제 | 온라인 | [Xia, Mengzhou, et al. "Sheared llama: Accelerating language model pre-training via structured pruning." arXiv preprint arXiv:2310.06694 (2023).](https://arxiv.org/abs/2310.06694) |    |
+| 2025/06/18 | Pruning After Training: Pruning in Early Training             | 양문기 | 온라인 | [You, Haoran, et al. "Drawing early-bird tickets: Towards more efficient training of deep networks." arXiv preprint arXiv:1909.11957 (2019).](https://arxiv.org/abs/1909.11957) |    |
+| 2025/06/25 | Pruning After Training: Post-Training Pruning                 | 박선영 | 온라인 | [Frantar, Elias, and Dan Alistarh. "Sparsegpt: Massive language models can be accurately pruned in one-shot." International Conference on Machine Learning. PMLR, 2023.](https://arxiv.org/abs/2301.00774) |    |
+| 2025/07/02 | Run-time Pruning                                              | 정현우 | 오프라인 | [Tang, Yehui, et al. "Manifold regularized dynamic network pruning." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2021.](https://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Manifold_Regularized_Dynamic_Network_Pruning_CVPR_2021_paper.pdf) |    |
 
 ### Hands-On Pruning with Jetson
 | 날짜 | 내용 | 진행방식 | 비고 |
